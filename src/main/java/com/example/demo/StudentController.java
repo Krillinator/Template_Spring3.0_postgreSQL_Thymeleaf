@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class StudentController {
 
-    @GetMapping("/findStudent")
+    @GetMapping("/findStudent/{id}")
     public String getStudent(@PathVariable String id) {
 
         return "";
